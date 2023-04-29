@@ -1,0 +1,79 @@
+.containerMenu{
+    width: 40%;
+}
+.containerNavMenu{
+    position: relative;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60%;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+/*#nav-bar{
+    opacity: 0;
+}*/
+.menu-link{
+    text-decoration: none;
+    color: white;
+    padding: 13px 40px;
+    font-size: 1rem;
+    display: block;
+    cursor: pointer;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+    color: #ececec;
+}
+
+.login{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.login:hover{
+    text-decoration: none;
+    color: #7F51CF;
+    background-color: rgba(236, 236, 236, 0.9);
+    cursor: pointer;
+    
+}
+.navBar{
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .containerNavMenu{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        background-image: linear-gradient(-28.05deg, #6b37c4, #2d0a49);
+        z-index: 100;
+    }
+
+    .navBar button{
+        background-color: rgba(91, 45, 169, 0);
+        border-style: none;
+        padding: 20px 50px;
+    }
+    .menu{
+        display: none;
+    }
+  } 

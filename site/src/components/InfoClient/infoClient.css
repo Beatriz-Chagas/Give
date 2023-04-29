@@ -1,0 +1,14 @@
+@media screen and (max-width: 1150px){
+    #group-1, #group-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .line{
+        width: 200px;
+    }
+    .personal-info{
+        width: 300px;
+    }
+
+    
+}
