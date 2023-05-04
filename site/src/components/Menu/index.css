@@ -37,7 +37,7 @@
 
 .login:hover{
     text-decoration: none;
-    color: #7F51CF;
+    color: #235997;
     background-color: rgba(236, 236, 236, 0.9);
     cursor: pointer;
     
@@ -64,7 +64,7 @@
         height: 50px;
         position: fixed;
         bottom: 0;
-        background-image: linear-gradient(-28.05deg, #6b37c4, #2d0a49);
+        background-image: linear-gradient(-28.05deg, #235997, #160a49);
         z-index: 100;
     }
 

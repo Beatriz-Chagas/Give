@@ -18,6 +18,7 @@ export default function Menu(){
     function handleRegister(){
         history.push('/signup');
     }
+   
 
 
     return(
@@ -25,9 +26,11 @@ export default function Menu(){
             <div className="containerMenu">
                 <div className="menu">
                     <a className="menu-link" onClick={handleHome}>Home</a>
-                    <a className="menu-link" href="">Elite</a>
+                    <a className="menu-link" href="">Give</a>
                     <a className="menu-link" href="">Aplicativo</a>
+                    <a className="menu-link" onClick={handleRegister}>Cadastro</a>
                     <a className="menu-link login" onClick={handleLogin}>Login</a>
+                   
                 </div>
                 
             </div>

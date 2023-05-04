@@ -44,5 +44,5 @@ app.use('/comentarios', comentarios);
 app.use('/favoritos', favoritos);
 
 app.listen(8080, function () {
-	console.log("Elite API");
+	console.log("API GIVE");
 });

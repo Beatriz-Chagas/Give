@@ -23,9 +23,11 @@ export default function AccountSetup(props){
     }
 
     function handleLogin(){
-        history.push('/login');
+        history.push('/SignupC');
     }
-   
+    function handleHome(){
+        history.push('/');
+    }
     const { values, inputChange } = props;
 
     return (
@@ -33,10 +35,10 @@ export default function AccountSetup(props){
             
             <form onSubmit={handleSubmit} className='form-signup '>
             
-                <div className="header-logo-img">
-                <img src={Logo} />
+                <div className="header-logo-img" onClick={handleHome}>
+                <img src={Logo}  />
                     <h1 className="title-form">
-                    ELITE
+                    GIVE
                     </h1>
                 </div>
                 <div className='form-inputs'>
@@ -110,7 +112,7 @@ export default function AccountSetup(props){
                 Próximo
                 </button>
                 <span className='form-input-login'>
-                Já tem uma conta? Login <a onClick={handleLogin}>aqui</a>
+                Quer se cadastrar como cliente? Cadastro <a onClick={handleLogin}>aqui</a>
                 </span>
             </form>
         </div>

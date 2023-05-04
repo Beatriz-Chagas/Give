@@ -63,6 +63,7 @@ router.post('/cadastro', upload.single('photo'), async (req, res) => {
 	}
 });
 
+
 router.post('/login', async (req, res) => {
 	try {
 		const nome_empresa = req.body.nome_empresa;

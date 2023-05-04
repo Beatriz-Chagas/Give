@@ -28,7 +28,7 @@ export default function HomePage(){
                 </div>
                 <div className="info" id="header-info">
                     <div className="basic-info">
-                        <h1>Bem vindo A Elite</h1>
+                        <h1>Bem vindo A Give</h1>
                         <p>Cadastre sua empresa e seja encontrado por vários clientes de forma rápida e prática no nosso aplicativo.</p>
                         <a className="button" onClick={handleSignUp}>Cadastre-se</a>
                     </div>
@@ -38,7 +38,7 @@ export default function HomePage(){
                 </div>
             <div>
            
-            <img src={wave} className="wave" />
+            {/*<img src={wave} className="wave" />*/}
             <img src={cloud} className="cloud"/>
             <div className="info" id="about-us">
                 <div className="mockup" id="about-us-svg">
@@ -46,7 +46,7 @@ export default function HomePage(){
                     </div>
                     <div className="basic-info about-us">
                         <h1>Sobre nós</h1>
-                        <p>A Elite é uma empresa nova no mercado de trabalho, a qual atua ajudando microempreendedores a se promoverem e conseguirem uma gama maior de clientes por meio do nosso sistema, facilitando a vida de nossos clientes e ajudando a economia de famílias com pessoas que começaram a empreender.</p>
+                        <p>A Give é uma empresa nova no mercado de trabalho, a qual atua ajudando microempreendedores a se promoverem e conseguirem uma gama maior de clientes por meio do nosso sistema, facilitando a vida de nossos clientes e ajudando a economia de famílias com pessoas que começaram a empreender.</p>
                     </div>
                 
                 </div>
@@ -54,7 +54,7 @@ export default function HomePage(){
             <img src={cloud} className="cloud cloud2"/>
             <div className="space"></div>
             <div className="info" id="app">
-            <img src={wave} className="wave2" />
+           {/* <img src={wave} className="wave2" />*/}
             <div className="bg-purple2"></div>
                 <div className="basic-info app-elite" >
                     <h1>Sobre nosso aplicativo</h1>

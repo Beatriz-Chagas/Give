@@ -63,7 +63,7 @@ export default function Logon(){
 
                 <section className="form">
                     <form onSubmit={(e) => handleLogin(e)}>
-                        <h1>Login</h1>
+                        <h1>Login Empresário</h1>
 
                         <p className="labelInfo">Nome da empresa</p>
                         <input 
@@ -74,12 +74,12 @@ export default function Logon(){
                         />
 
                         <p style={{marginTop: 20, marginBottom: 2}} className="labelInfo">Senha</p>
-                        <input className="input link" type = "text" placeholder="Digite sua senha"
+                        <input className="input link" type = "password" placeholder="Digite sua senha"
                         onChange = {(e) => setSenha(e.target.value)} />
                         <button className="button1 " type = "submit">Entrar</button>
 
-                        <Link className = "back-link" to="/signup">    
-                            Não tenho cadastro
+                        <Link className = "back-link" to="/ClientLogin">    
+                            Login como Cliente
                         </Link>
                     </form>
                     <a>{text}</a>

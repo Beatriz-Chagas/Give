@@ -14,7 +14,7 @@
 .purple-container{
     height: 100%;
     width: 23%;
-    background-color: #7F51CF;
+    background-color: #235997;
     position: relative;
 }
 
@@ -52,8 +52,8 @@
 }
 
 .info-client a:hover{
-    border: 2px solid #7F51CF;
-    color: #7F51CF;
+    border: 2px solid #235997;
+    color: #235997;
 }
 
 .info-client h2{
@@ -223,7 +223,7 @@
     .purple-container{
         width: 100%;
         height: 23%;
-        background-color: #7F51CF;
+        background-color: #235997;
         position: relative;
     }
     .infoAccordion{

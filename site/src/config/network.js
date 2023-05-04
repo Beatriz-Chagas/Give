@@ -1,1 +1,1 @@
-export const network = {api: 'http://192.168.15.152:8080'}
+export const network = {api: 'http://192.168.15.5:8080'}

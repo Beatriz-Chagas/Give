@@ -52,14 +52,15 @@ export default function Info(){
                 <div className="purple-container">
                     <div className="header-client">
                         <img className="logo" src={logoImg} alt="Logo Elite" />
-                        <p>ELITE</p>
+                        <p>GIVE</p>
                     </div>
     
-                    <div className="owner-info">
+                    <div className="owner-info" style={{marginLeft: "90px"}}>
                         <img 
                             className="company-photo" 
                             src={network.api + '/' + empresa.foto_perfil} 
                             alt="empresa" 
+                            style={{width:"230px", marginLeft: "-20%", borderRadius: "50%", marginBottom: "50px"}}
                             
                         />
                         <p>{empresa.nome_empresa}</p>
@@ -69,14 +70,14 @@ export default function Info(){
                
                 
                 <div className="info-client">
-                    <div className="headerInfo">
+                    <div className="headerInfo" style={{marginTop: "-45%"}}>
                         <a id='a' onClick={handleLogOut}>Sair</a>
                         <a id='aNav' onClick={handleLogOut}>
                             <IoMdLogOut style={{width: '30px', height: '30px'}}/>
                         </a>
-                        <h2 id="h2">Suas Informações pessoais</h2>
+                       
                     </div>
-                    
+                    <h2 id="h2">Suas Informações pessoais</h2>
     
                     <div className="infoContainer">
                         <div className="all-info">

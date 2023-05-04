@@ -36,7 +36,7 @@ export default function SocialProfiles(props){
                 <div className="header-logo-img">
                 <img src={Logo} />
                     <h1 className="title-form">
-                    ELITE
+                    GIVE
                     </h1>
                 </div>
                 <div className='form-inputs'>
